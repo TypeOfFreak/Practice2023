@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json</title>
+    <link rel="stylesheet" href="/static/Styles.css" />
+</head>
+<body>
+<div id = 'page-wrapper'>
+    <div class = "container">
+        <form action="{% url 'index' %}" method="post">
+            {% csrf_token %}
+            <label for="{{ form.ID.id_for_label }}">Enter ID:</label>
+            {{ form.ID }}
+            <button type="submit">Check</button>
+        </form>
+        <hr>
+        <p>ID: {{ film.id }}</p>
+        <p>Name: {{ film.name }}</p>
+        <p>Decsription: {{ film.description }}</p>
+        <p>Rating: {{ film.rating }}</p>
+        <p>Awesome: {{ film.awesome }}</p>
+    </div>
+</div>
+</body>
+</html>

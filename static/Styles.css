@@ -1,0 +1,20 @@
+.container {
+  width: 150px;
+  padding-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #eeeeee;
+}
+#page-wrapper{
+  height: 800px;
+  background-size: cover;
+  width: 100%;
+  background-image: url("https://preview.redd.it/punpun-tetrahedron-wallpaper-v0-8zpe83jufrva1.png?width=3840&format=png&auto=webp&s=4b5292955a50502c34559e87beb37d6d13c38276");
+}

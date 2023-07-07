@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "TheFilm1",
+    "description": "Description1",
+    "rating": 8,
+    "awesome": true
+    },
+  {
+    "id": 2,
+    "name": "TheFilm2",
+    "description": "Description2",
+    "rating": 5,
+    "awesome": false
+    },
+  {
+    "id": 3,
+    "name": "TheFilm3",
+    "description": "Description3",
+    "rating": 10,
+    "awesome": true
+    },
+  {
+    "id": 4,
+    "name": "TheFilm4",
+    "description": "Description4",
+    "rating": 6,
+    "awesome": false
+    },
+  {
+    "id": 5,
+    "name": "TheFilm5",
+    "description": "Description4",
+    "rating": 9,
+    "awesome": true
+    }
+]
